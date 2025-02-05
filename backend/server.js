@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 /*
   Env variables
 */
-const DATABASE = "mongodb+srv://piyushhh:<PASSWORD>@tasks.wz82puo.mongodb.net/?retryWrites=true"
-const DATABASE_PASSWORD = "Password"
+const DATABASE = "mongodb+srv://hemant:<PASSWORD>@cluster0.kxgkf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const DATABASE_PASSWORD = "password12349876"
 const PORT = process.env.PORT ||  8000
 
 const app = require("./app");
